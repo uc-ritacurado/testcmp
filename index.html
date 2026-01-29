@@ -60,6 +60,12 @@
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMFH47P6" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <script>
+        window.addEventListener('UC_CONSENT', function (event) {
+            console.log('UC_CONSENT event detail', event.detail)
+        });
+    </script>
+    
 
     <img src="https://usercentrics.com/wp-content/uploads/2024/09/UC_Web_Black.svg" alt="uc-logo" style="width: 200px;">
     <h1>Usercentrics CMP V3 Test Page</h1>
